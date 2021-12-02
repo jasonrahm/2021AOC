@@ -2,7 +2,7 @@
 Advent of Code - Day 1
 Puzzle: Sonar Sweep Part 2
 """
-with open('../input/sonar_sweep_data.txt', 'r') as f:
+with open('input/sonar_sweep_data.txt', 'r') as f:
     depths: list = [int(x) for x in f.readlines()]
 
 count: int = 0
