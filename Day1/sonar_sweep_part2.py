@@ -18,3 +18,6 @@ for index, value in enumerate(depths):
     except IndexError:
         pass
 print(count)
+
+# Better IF statement: algebraic reduction
+# if depths[index + 3] > depths[index]:
